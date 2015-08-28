@@ -35,7 +35,7 @@ public class ProcessForm extends HttpServlet {
 		String cars = request.getParameter("cars");
 		String groupcars = request.getParameter("groupcars");
 		table = "";
-		table += "<form>"
+		table += "<form>" 
 		+ "<label>First Name</label>"
 		+ "<input type=\"text\" value=\"" + firstName  + "\">"
 		+ "<br>"
